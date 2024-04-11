@@ -45,7 +45,7 @@ for config in pp_tau:
       max_tau = pp_tau[config][i]
 
 color = ["red", "blue", "green"]
-linestyle = ["-", "--"]
+linestyle = ["dotted", "--"]
 
 for i in range(len(pp_prob)):
   config = list(pp_prob.keys())[i]
